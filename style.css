@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin:auto;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin:10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    -webkit-box-shadow: -1px 2px 82px -57px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 82px -57px rgba(0,0,0,0.75);
+box-shadow: -1px 2px 82px -57px rgba(0,0,0,0.75);
+transition: all 0.3s ease-in-out;
+}
+
+.product:hover {
+    -webkit-box-shadow: -1px 42px 110px -57px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 42px 110px -57px rgba(0,0,0,0.75);
+box-shadow: -1px 42px 110px -57px rgba(0,0,0,0.75);
+}
+
+.product img {
+    width: 100%;
+}
+
+.product a {
+    color: #0077cc;
+    text-decoration: none;
+}
